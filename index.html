@@ -6,21 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Quattrocento:wght@400;700&family=Sriracha&display=swap" rel="stylesheet">  
 </head>
 <body>
   <header>
-    <div>
+    <div class="titre">
       <h1>
-        <img src="img/logo.png" alt="Logo emojuice">
+        <img src="img/logo.svg" alt="Logo emojuice">
       </h1>
       <p>
-        Boissons végétales préparées avec amour
+        Boissons végétales<br>préparées avec amour
       </p>
     </div>
-    <a href="article.html">
+    <a class="button_produit" href="#produit">
       Accédez à nos produits
     </a>
-    <a href="article.html">
+    <a class="button_contact" href="#contact">
       Nous contacter
     </a>
   </header>
@@ -39,6 +42,9 @@
       <img src="img/orange.png" alt="emoji orange">
     </div>
     <div class="produit">
+      <h2 id="produit">
+        Nos produits
+      </h2>
       <article class="banane">
         <h1>
           Jus de banane
@@ -90,7 +96,7 @@
     </div>
   </main>
   <footer>
-    <h2>
+    <h2 id="contact">
       Nous contacter
     </h2>
     <a href="emojuice@veggies.ch">emojuice@veggies.ch</a>

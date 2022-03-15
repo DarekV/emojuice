@@ -1,0 +1,85 @@
+/* font:
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Sriracha', cursive; */
+
+
+
+
+
+body {
+  width: 380px;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+header  {
+  background-image: url(../img/fruit.jpg);
+  background-size: 100%;
+  border-top: 8px solid #57BB6B;
+  text-align: center;
+  height: 380px;
+}
+
+.titre {
+  margin: 28px 30px 33px;
+  width: 320px;
+  height: 166px;
+  background-color: #ffffffdd;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+header img {
+  width: 205px;
+  align-items: center;
+  margin-top: 34px;
+}
+
+
+header p {
+  color: #57BB6B;
+  font-family: 'Quattrocento', serif;
+  font-weight: 400px;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.button_produit {
+  width: 244px;
+  height: 45px;
+  margin: auto;
+  background-color: #57BB6B;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.button_contact {
+  margin-top: 56px;
+  width: 170px;
+  height: 45px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  color: #57BB6B;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
