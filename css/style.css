@@ -51,20 +51,18 @@ nav {
   justify-content: space-between;
   height: 110px;
 }
+
 .button {
   padding: 11px 15px;
   border-radius: 20px;
   font-family: "Maven Pro", sans-serif;
   font-size: 20px;
   text-decoration: none;
-}
-
-.button_produit {
   background-color: #57bb6b;
   color: white;
 }
 
-.button_contact {
+.button-light {
   background-color: white;
   color: #57bb6b;
 }
@@ -135,7 +133,7 @@ article p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.lien {
+.link {
   height: 105px;
   display: flex;
   align-items: flex-end;
@@ -143,14 +141,14 @@ article p {
   margin: 0 40px;
 }
 
-.lien a {
+.link a {
   font-family: "Maven Pro", sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: black;
 }
 
-.lien img {
+.link img {
   width: 80px;
 }
 
@@ -181,11 +179,6 @@ footer h2 {
 footer nav {
   height: 160px;
   margin-bottom: 75px;
-}
-
-.button-lien {
-  background-color: #57bb6b;
-  color: white;
 }
 
 footer p {
