@@ -101,7 +101,7 @@ main h2 {
   margin: 35px 67px;
 }
 
-.container img {
+.container-fruit img {
   width: 28px;
 }
 
@@ -181,7 +181,7 @@ article p {
 /* footer */
 
 footer h2 {
-  margin-top: 42px;
+  margin: 42px 0 34px 0;
   color: #57BB6B;
 }
 
