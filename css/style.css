@@ -3,10 +3,6 @@ font-family: 'Maven Pro', sans-serif;
 font-family: 'Quattrocento', serif;
 font-family: 'Sriracha', cursive; */
 
-
-
-
-
 body {
   width: 380px;
   margin: auto;
@@ -15,10 +11,10 @@ body {
 
 /* header */
 
-header  {
+header {
   background-image: url(../img/fruit.jpg);
   background-size: 100%;
-  border-top: 8px solid #57BB6B;
+  border-top: 8px solid #57bb6b;
   text-align: center;
   height: 380px;
 }
@@ -30,7 +26,6 @@ header  {
   background-color: #ffffffdd;
 }
 
-
 h1 {
   margin: 0;
 }
@@ -41,10 +36,9 @@ header img {
   margin-top: 34px;
 }
 
-
 header p {
-  color: #57BB6B;
-  font-family: 'Quattrocento', serif;
+  color: #57bb6b;
+  font-family: "Quattrocento", serif;
   font-weight: 400px;
   font-size: 20px;
   margin-top: 0;
@@ -60,27 +54,26 @@ nav {
 .button {
   padding: 11px 15px;
   border-radius: 20px;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
 
 .button_produit {
-  background-color: #57BB6B;
+  background-color: #57bb6b;
   color: white;
 }
 
 .button_contact {
   background-color: white;
-  color: #57BB6B;
+  color: #57bb6b;
 }
-
 
 /* main */
 
 h2 {
   text-align: center;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-weight: bold;
   font-size: 26px;
 }
@@ -106,7 +99,7 @@ main h2 {
 }
 
 .produit {
-  background-color: #57BB6B;
+  background-color: #57bb6b;
   color: white;
   margin-top: 100px;
 }
@@ -126,12 +119,12 @@ article {
   width: 321px;
   height: 241px;
   border-radius: 20px;
-  box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.35);
 }
 
 article h1 {
   padding: 38px 0 0 40px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   color: black;
   font-size: 30px;
 }
@@ -139,7 +132,7 @@ article h1 {
 article p {
   padding-left: 40px;
   margin: 0;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .lien {
@@ -151,7 +144,7 @@ article p {
 }
 
 .lien a {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: black;
@@ -162,19 +155,19 @@ article p {
 }
 
 .banane {
-  background-color: #FFF8D7;
+  background-color: #fff8d7;
 }
 
 .kiwi {
-  background-color: #C4F2AD;
+  background-color: #c4f2ad;
 }
 
 .cafe {
-  background-color: #D3C6B2;
+  background-color: #d3c6b2;
 }
 
 .fraise {
-  background-color: #F7A4B4;
+  background-color: #f7a4b4;
   margin-bottom: 44px;
 }
 
@@ -182,7 +175,7 @@ article p {
 
 footer h2 {
   margin: 42px 0 34px 0;
-  color: #57BB6B;
+  color: #57bb6b;
 }
 
 footer nav {
@@ -191,13 +184,13 @@ footer nav {
 }
 
 .button-lien {
-  background-color: #57BB6B;
+  background-color: #57bb6b;
   color: white;
 }
 
 footer p {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 12px; 
-  color: #57BB6B;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 12px;
+  color: #57bb6b;
   text-align: center;
 }
