@@ -19,7 +19,7 @@ header {
   height: 380px;
 }
 
-.titre {
+.title {
   margin: 28px 30px 33px;
   width: 320px;
   height: 166px;
@@ -120,7 +120,7 @@ article {
   box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.35);
 }
 
-article h1 {
+.article-title {
   padding: 38px 0 0 40px;
   font-family: "Sriracha", cursive;
   color: black;
@@ -186,4 +186,39 @@ footer p {
   font-size: 12px;
   color: #57bb6b;
   text-align: center;
+}
+
+/* article.html */
+
+.kiwi-page {
+  padding: 68px 68px 0 68px;
+  background-color: #C4F2AD;
+}
+
+.kiwi-page p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  color: rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.article-title {
+  padding: 0;
+  text-align: center;
+}
+
+.fond-kiwi {
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 68px;
+  width: 169px;
+  height: 169px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+}
+
+.fond-kiwi img {
+  width: 100px;
+  margin: auto;
 }
