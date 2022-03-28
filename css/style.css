@@ -6,7 +6,6 @@ font-family: 'Sriracha', cursive; */
 body {
   width: 380px;
   margin: auto;
-  scroll-behavior: smooth;
 }
 
 /* header */
@@ -121,10 +120,10 @@ article {
 }
 
 .article-title {
-  padding: 38px 0 0 40px;
   font-family: "Sriracha", cursive;
   color: black;
   font-size: 30px;
+  padding: 20px 0 0 40px;
 }
 
 article p {
@@ -202,7 +201,7 @@ footer p {
   text-align: center;
 }
 
-.article-title {
+.article {
   padding: 0;
   text-align: center;
 }
