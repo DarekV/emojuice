@@ -189,6 +189,10 @@ footer p {
 
 /* article.html */
 
+.background-kiwi {
+  height: 220px;
+}
+
 .kiwi-page {
   padding-top: 68px;
   background-color: #c4f2ad;
